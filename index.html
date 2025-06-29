@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Nelius Ndung'u - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
+  <div class="cursor"></div>
+  
   <header>
     <nav>
       <ul class="nav-links">
@@ -20,7 +22,7 @@
 
   <section class="hero">
     <div class="hero-content">
-      <img src="images/profile.jpg" alt="Your Profile Picture" class="hero-img" />
+      <img src="images/profile.jpg" alt="Nelius Ndung'u Profile" class="hero-img" />
       <h2>Hi, I'm Nelius Ndung'u</h2>
       <p>Aspiring Web Developer | Designer | Creative Thinker</p>
       <a href="#projects" class="btn">View My Work</a>
@@ -28,57 +30,62 @@
   </section>
 
   <section id="about" class="section about">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>A passionate web developer with experience in front-end development, 
-      UI/UX design, and creative problem-solving. 
-      I enjoy building web applications that are fast, accessible, and visually appealing.
-       I’m currently exploring opportunities in ML</p>
-  </div>
-</section>
-<section id="projects" class="section projects">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>Diabetic Patient Monitoring App</h3>
-        <p>A Laravel + Vue.js system that tracks glucose levels, medication, meals, and allows real-time messaging between patients and doctors.</p>
-      </div>
-      <div class="project">
-        <h3>Android Pinterest-Style App</h3>
-        <p>Built using Jetpack Compose, featuring a dynamic grid layout and theme toggle for dark/light modes.</p>
-      </div>
-      <div class="project">
-        <h3>Food & Carbs Tracker</h3>
-        <p>Vue app for logging meals and carbs, with chart visualizations and patient-specific insights.</p>
-      </div>
-      <div class="project">
-        <h3>Real-Time Chat Platform</h3>
-        <p>Laravel and Inertia.js-powered chat system with role-based message routing, reply threading, and history tracking.</p>
-      </div>
-      <div class="project">
-        <h3>SEED Labs Security Analysis</h3>
-        <p>Investigated encryption modes, predictable IVs, and RSA vulnerabilities using Python and OpenSSL for SEED Labs assignments.</p>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        A passionate web developer with experience in front-end development, 
+        UI/UX design, and creative problem-solving. 
+        I enjoy building web applications that are fast, accessible, and visually appealing.
+        I'm currently exploring opportunities in ML.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>🏥 Diabetic Patient Monitoring App</h3>
+          <p>A Laravel + Vue.js system that tracks glucose levels, medication, meals, and allows real-time messaging between patients and doctors.</p>
+        </div>
+        <div class="project">
+          <h3>📱 Android Pinterest-Style App</h3>
+          <p>Built using Jetpack Compose, featuring a dynamic grid layout and theme toggle for dark/light modes.</p>
+        </div>
+        <div class="project">
+          <h3>🍎 Food & Carbs Tracker</h3>
+          <p>Vue app for logging meals and carbs, with chart visualizations and patient-specific insights.</p>
+        </div>
+        <div class="project">
+          <h3>💬 Real-Time Chat Platform</h3>
+          <p>Laravel and Inertia.js-powered chat system with role-based message routing, reply threading, and history tracking.</p>
+        </div>
+        <div class="project">
+          <h3>🔒 SEED Labs Security Analysis</h3>
+          <p>Investigated encryption modes, predictable IVs, and RSA vulnerabilities using Python and OpenSSL for SEED Labs assignments.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="contact" class="section contact">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>I'm open to freelance work, collaborations, or internship opportunities. Feel free to reach out!</p>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="_replyto" placeholder="Your Email" required />
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </div>
-</section>
+  </section>
 
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>I'm open to freelance work, collaborations, or internship opportunities. Feel free to reach out!</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Nelius. All rights reserved.</p>
+    <p>&copy; 2025 Nelius Ndung'u. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
