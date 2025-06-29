@@ -1,0 +1,41 @@
+.section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #764ba2;
+}
+.project-list {
+  display: grid;
+  gap: 1.5rem;
+}
+.project {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+form .btn {
+  background-color: #764ba2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+form .btn:hover {
+  background-color: #5c3d91;
+}
