@@ -81,14 +81,14 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### A. Milestones and Issues
 
 - Screenshot showing your milestone(s) and the issues linked to it.
-![Milestone creation screenshot](images/milestones and issues linked to it.png)
+![Milestone creation screenshot](images/milestones.png)
 
 
 
 ### B. Project Board
 
 - Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
-![Milestone creation screenshot](images/Project's dashboard.png)
+![Milestone creation screenshot](images/dashboard.png)
 
 ### C. Branching
 
@@ -99,11 +99,11 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 ### D. Pull Requests
 
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
-![Milestone creation screenshot](images/pull request.png)
+![Milestone creation screenshot](images/pullrequest.png)
 
 
 
 ### E. Merge Conflict Resolution
 
 - Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
-![Milestone creation screenshot](images/code review before merging.png)
+![Milestone creation screenshot](images/codereview.png)
